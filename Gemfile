@@ -73,3 +73,4 @@ end
 
 gem "devise"
 gem 'sass-rails'
+gem "font-awesome-sass", "~> 6.1.1"

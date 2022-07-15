@@ -1,0 +1,151 @@
+.profile-sidebar, .bio, .testemonials, .friendlist, .communities {
+  background-color: var(--white);
+  border-radius: 20px;
+  border: 1px solid var(--gray-100);
+  padding: 2rem;
+}
+
+.testemonials, .communities {
+  margin-top: 1rem;
+}
+
+.testemonial {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+
+  .avatar {
+    height: 3rem;
+    width: 3rem;
+    margin-top: 0.4rem;
+  }
+
+}
+
+.testemonial-info {
+  display: flex;
+  flex-direction: column;
+
+  .username {
+    font-weight: bold;
+  }
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .avatar {
+    width: 8rem;
+    height: 8rem;
+    border: 3px solid var(--white);
+    margin-bottom: 1rem;
+    outline: 3px solid var(--logo);
+  }
+
+  .profile-info {
+    line-height: 1.4;
+    color: var(--gray-400);
+    font-size: 1rem;
+  }
+
+  .profile-name {
+    line-height: 1.6;
+    color: var(--gray-600);
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+}
+
+.side-menu ul > li {
+  list-style: none;
+  line-height: 3;
+  font-weight: bold;
+  font-size: 0.875rem;
+  color: var(--gray-600);
+
+  .fa-solid {
+    margin-right: 0.875rem;
+    color: var(--gray-100);
+    font-size: 1.25rem;
+    width: 1.5rem;
+    text-align: center;
+  }
+}
+
+.scores {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto;
+}
+
+.scraps, .fans, .trustful, .cool, .sexy {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.875rem;
+  line-height: 1.6;
+
+  .fa-solid {
+    padding: 0 0.15rem;
+    color: var(--gray-100);
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+.score-title {
+  font-size: 0.75rem;
+}
+
+.about {
+  table td {
+    padding: 0.5rem;
+    vertical-align: top;
+  }
+}
+
+.about-title {
+  color: var(--gray-400);
+}
+
+.friends {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+
+  .avatar {
+    border: none;
+    height: 4.5rem;
+    width: 4.5rem;
+    outline: none;
+    margin: 1rem auto 0;
+  }
+  span {
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+    line-height: 1.6;
+  }
+}
+
+.see-all {
+  display: block;
+  font-size: 0.875rem;
+  text-align: right;
+  color: var(--logo);
+}
+
+.comu-avatar {
+  width: 4.5rem;
+  height: 4.5rem;
+  object-fit: cover;
+  border-radius: 50px;
+  margin: 1rem auto 0;
+}
+
+.section-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
